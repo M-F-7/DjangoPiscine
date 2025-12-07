@@ -1,35 +1,57 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
+
+</html>
+
 <head>
     <meta charset="UTF-8">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>CV</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 5px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 10px;
+        }
+    </style>
 </head>
-<body> 
+
+<body>
     <h1>Infos</h1>
     <table>
-        <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Skills</th>
-            <th>Experience</th>
-        </tr>
-        <tr>
-            <td>Django</td>
-            <td>Djangui</td>
-            <td>Any</td>
-            <td>None</td>
-        </tr>
+        <thead>
+            <tr>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">Skills</th>
+                <th scope="col">Experience</th>
+            </tr>
+            <tr>
+                <td>Django</td>
+                <td>Djangui</td>
+                <td>Any</td>
+                <td style="background:#424242; color:#FFFFFF;">None</td>
+            </tr>
+        </thead>
     </table>
+    <h2>Skills</h2>
     <ol>
-        <li>Python ></li>
-        <li>C++ ></li>
+        <li>Python</li>
+        <li>C++</li>
         <li>C</li>
     </ol>
+    <h3>Experience</h3>
     <ul>
         <li>Cherche Stage</li>
         <li>Mlops or</li>
         <li>Ml engineer</li>
     </ul>
 </body>
+
 </html>
